@@ -2,7 +2,7 @@ import { attachBrands, enrich, fetchRssMany } from "../lib/rss.js";
 import { clampDays, dedupe } from "../lib/utils.js";
 import { writeJson } from "../lib/storage/index.js";
 
-export const config = { runtime: "nodejs18.x" };
+export const config = { runtime: "nodejs" };
 
 export default async function handler(req: any, res: any) {
   const MAX_DAYS = Number(process.env.MAX_DAYS || 365);
