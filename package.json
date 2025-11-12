@@ -1,0 +1,14 @@
+{
+  "name": "portal-noticias-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Serverless functions build on deploy'",
+    "lint": "echo 'no-lint'"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.658.1",
+    "fast-xml-parser": "^4.4.0"
+  }
+}
