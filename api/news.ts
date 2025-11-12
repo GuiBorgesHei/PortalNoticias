@@ -1,6 +1,6 @@
 import { readJson } from "../lib/storage/index.js";
 
-export const config = { runtime: "nodejs18.x" };
+export const config = { runtime: "nodejs" };
 
 export default async function handler(req: any, res: any) {
   const url = new URL(req.url, `http://${req.headers.host}`);
